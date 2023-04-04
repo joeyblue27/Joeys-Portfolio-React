@@ -1,10 +1,10 @@
-# Howard's Portfolio
+# Joey's Portfolio
 
 [![badge](https://img.shields.io/badge/license-MIT_License-purple)](https://choosealicense.com/licenses/mit)
 
 ## Description
 
-This is my portfolio created using React.
+Portfolio using React.
 
 ## Table of Contents
 
@@ -18,23 +18,19 @@ This is my portfolio created using React.
 
 ## Installation
 
-No installation required
+N/A
 
 ## Usage
 
-Go to the site, and click on the different sections to view my information.
+
 
 ## Links
 
-[Site](https://hvansalisbury.github.io/Howards-Portfolio/)
-[Repo](https://github.com/hvansalisbury/Howards-Portfolio/)
+[Site](https://joeyblue27.github.io/Joeys-Portfolio/)
+[Repo](https://github.com/joeyblue27/Joeys-Portfolio/)
 
 ## Screenshots
 
-![About Me](./images/aboutme.png)
-![Contact Me](./images/contact.png)
-![Portfolio](./images/portfolio.png)
-![Resume](./images/resume.png)
 
 ## License
 
@@ -42,10 +38,8 @@ Go to the site, and click on the different sections to view my information.
 
 This application is covered under the [MIT License](https://choosealicense.com/licenses/mit) license.
 
-## Contributing
-
-At this time, I am not looking for any additional contributors for this project.
 
 ## Questions
-
-Should you have any questions, please [email](vansal51@yahoo.com) me and reach out to me on my [Github Profile](https://github.com/hvansalisbury)
+Reach me! 
+[email](joeyblue27@gmail.com) 
+[Github Profile](https://github.com/joeyblue27)
