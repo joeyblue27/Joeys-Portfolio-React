@@ -5,8 +5,7 @@ import './assets/css/style.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 // importing all of our different states that get displayed when we click on them in the nav bar
-import ContactForm from './components/ContactForm';
-import AboutMe from './components/AboutMe';
+
 // importing our usestate function from react
 import { useState } from 'react';
 // app function that will get exported to index.js
@@ -16,14 +15,7 @@ function App() {
   // switch function to determine which tab will get rendered depending on which option is clicked, default is about me
   const renderTab = () => {
     switch (currentTab) {
-      case 'about':
-        return <AboutMe />;
-      case 'contact':
-        return <ContactForm />;
-/*       case 'portfolio':
-        return <Portfolio />;
-      default: */
-        return <AboutMe />;
+
     };
   };
   // returns the html that will get rendered
