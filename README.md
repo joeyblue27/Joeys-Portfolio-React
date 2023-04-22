@@ -26,8 +26,7 @@ N/A
 
 ## Links
 
-[Site](https://joeyblue27.github.io/Joeys-Portfolio/)
-[Repo](https://github.com/joeyblue27/Joeys-Portfolio/)
+[Deploy](https://radiant-badlands-77869.herokuapp.com/)
 
 ## Screenshots
 
