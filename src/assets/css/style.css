@@ -1,12 +1,40 @@
+
+body {
+    background-color: #ffffff;
+   
+    background-image: radial-gradient(circle at center center, #30919f, #ffffff), repeating-radial-gradient(circle at center center, #30919f, #30919f, 36px, transparent 72px, transparent 36px);
+    
+}
+
+
+
+
+#photo {
+    position: absolute;
+    
+    left: 200px;
+    top: 200px;
+}
+
+p {
+    position: absolute;
+    top: 200px;
+    
+    color:rgb(199, 240, 240);
+    
+
+}
+
 .active-tab {
-    color: rgb(175, 127, 171) !important;
-    background-color: rgb(176, 232, 208) !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(117, 204, 230) !important;
     border-radius: 10px !important;
 }
 
 .list-group-item:hover {
-    color: rgb(161, 77, 197) !important;
-    background-color: rgb(29, 56, 45) !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(152, 228, 247) !important;
     border-radius: 10px !important;
     cursor: pointer !important;
 };
+

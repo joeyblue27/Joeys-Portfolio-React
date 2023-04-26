@@ -1,11 +1,11 @@
 // importing app.css
-import './App.css';
 import './assets/css/style.css';
 // importing our static header and footer
 import Footer from './components/Footer';
 import Header from './components/Header';
 // importing all of our different states that get displayed when we click on them in the nav bar
 import AboutMe from './components/AboutMe';
+
 // importing our usestate function from react
 import { useState } from 'react';
 // app function that will get exported to index.js
@@ -17,14 +17,13 @@ function App() {
     switch (currentTab) {
       case 'about':
         return <AboutMe />;
-/*       case 'contact':
+      case 'contact':
         return <ContactForm />;
       case 'portfolio':
         return <Portfolio />;
       case 'resume':
-        return <Resume />;
       default:
-        return <AboutMe />; */
+      
     };
   };  
   return (
