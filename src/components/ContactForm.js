@@ -5,11 +5,11 @@ import { validateEmail } from '../utils/helpers';
 function ContactForm(props) {
   const styles = {
     background: {
-      backgroundColor: 'white',
+      backgroundColor: 'black',
       height: 'calc(100vh - 154px)',
     },
     form: {
-      backgroundColor: 'lightblue',
+      backgroundColor: 'lightgray',
       padding: '1em',
       borderRadius: '1em',
     },
@@ -56,18 +56,25 @@ function ContactForm(props) {
     // prevent default action of form submission
     e.preventDefault();
     // sets error message if any field is blank
-
-
+    if (!email || !name || !message) {
+      setErrorMessage('Email, name, and message are all required!');
+      return;
+    };
+    // sets error message if email is invalid
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      return;
+    };
     // makes all fields blank after submission
     setName('');
- 
-   
+    setEmail('');
+    setMessage('');
   };
   // returns form html
   return (
-    <div style={styles.background} className='d-flex align-items-center flex-column mt-5'>
+    <div style={styles.background} className='d-flex align-items-center flex-column'>
       {/* calls handle submit when form is submitted */}
-      <form style={styles.form} className="m-2 form d-flex flex-column w-25" onSubmit={handleSubmit}>
+      <form style={styles.form} className=" m-2 form d-flex flex-column w-50" onSubmit={handleSubmit}>
         <h2 className="text-center ">Contact Me</h2>
         <label>name:</label>
         <input
@@ -82,8 +89,29 @@ function ContactForm(props) {
           onBlur={handleBlur}
           required
         />
-       
-
+        <label>email:</label>
+        <input
+          value={email}
+          name="email"
+          type="email"
+          placeholder="email"
+          className="email-input rounded p-1"
+          onChange={handleChange}
+          onBlur={handleBlur}
+          required
+        />
+        <label>message:</label>
+        <textarea
+          rows="5"
+          value={message}
+          name="message"
+          type="text"
+          placeholder="message"
+          className="message-input rounded p-1"
+          onChange={handleChange}
+          onBlur={handleBlur}
+          required
+        />
         <button className="my-2 p-2 fw-bold form-button rounded" onClick={handleSubmit}>submit</button>
       </form>
       {errorMessage && (
