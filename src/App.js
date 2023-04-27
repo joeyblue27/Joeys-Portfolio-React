@@ -17,11 +17,7 @@ function App() {
     switch (currentTab) {
       case 'about':
         return <AboutMe />;
-      case 'contact':
-        return <ContactForm />;
-      case 'portfolio':
-        return <Portfolio />;
-      case 'resume':
+
       default:
       
     };
