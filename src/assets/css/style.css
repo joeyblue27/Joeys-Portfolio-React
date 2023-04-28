@@ -2,7 +2,7 @@
 body {
     background-color: #ffffff;
    
-    background-image: radial-gradient(circle at center center, #30919f, #ffffff), repeating-radial-gradient(circle at center center, #30919f, #30919f, 36px, transparent 72px, transparent 36px);
+    background-image: radial-gradient(circle at center center, #244a52, #715f43);
     
 }
 
@@ -20,7 +20,7 @@ p {
     position: absolute;
     top: 200px;
     
-    color:rgb(199, 240, 240);
+    color:rgb(252, 252, 252);
     
 
 }
