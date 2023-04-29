@@ -2,8 +2,8 @@
 body {
     background-color: #ffffff;
    
-    background-image: radial-gradient(circle at center center, #2e6773, #248881);
-    
+    background-image: radial-gradient(circle at left center, #236262, #79d9d1);
+ 
 }
 
 
@@ -17,10 +17,12 @@ body {
 }
 
 p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
     position: absolute;
     top: 200px;
     
-    color:rgb(252, 252, 252);
+    color:rgb(255, 255, 255);
     
 
 }
@@ -28,13 +30,17 @@ p {
 .active-tab {
     color: rgb(0, 0, 0) !important;
     background-color: rgb(117, 204, 230) !important;
-    border-radius: 10px !important;
+    border-radius: 25px !important;
 }
 
 .list-group-item:hover {
     color: rgb(0, 0, 0) !important;
     background-color: rgb(152, 228, 247) !important;
-    border-radius: 10px !important;
+    border-radius: 25px !important;
     cursor: pointer !important;
 };
+
+a {
+    position: top 50px;
+}
 

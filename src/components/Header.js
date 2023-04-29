@@ -8,7 +8,7 @@ function Header(props) {
     const { currentTab, setCurrentTab } = props;
     // returns header html includes props for navigation function
     return (
-        <header className='d-flex flex-column align-items-center bg-info py-4'>
+        <header className='d-flex flex-column align-items-center border border-2 py-4'>
       
             <Navigation
                 currentTab={currentTab}
