@@ -1,10 +1,11 @@
 // importing app.css
 import './assets/css/style.css';
 // importing our static header and footer
-import Footer from './components/Footer';
+
 import Header from './components/Header';
 // importing all of our different states that get displayed when we click on them in the nav bar
 import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
 
 // importing our usestate function from react
 import { useState } from 'react';
@@ -17,9 +18,10 @@ function App() {
     switch (currentTab) {
       case 'about':
         return <AboutMe />;
-
+        case 'portfolio':
+          return <Portfolio />;
       default:
-      
+        return <AboutMe />;
     };
   };  
   return (
@@ -35,7 +37,7 @@ function App() {
         {renderTab()}
       </div>
       <div>
-        <Footer />
+       
       </div>
     </div>
   );
