@@ -1,15 +1,15 @@
-// imports react
+
 import React from 'react';
-// imports profile picture
+
 import joeys from '../assets/images/joey.jpg'
 
 
 
 
-// aboutme function
+
 function AboutMe() {
 
-  // returns html for aboutme state
+ 
   return (
 
 
@@ -18,9 +18,7 @@ function AboutMe() {
      
       <div className='d-flex flex-column align-items-center pb-5'>
       <p className='w-25'>
-        Hi, My name is Joey. Computers and sound has been a craft of mine for quite sometime. 
-        Being a musician and learning how to code has enabled me to express myself in many ways. 
-        Retro art and gaming are other passions of mine.  
+      Hi, My name is Joey. Computers and sound has been a craft of mine for quite sometime. Previous work experiences have been in IT hardware support and retail selling. My career path will be moving towards coding development.
     
       </p>
       </div>
@@ -28,5 +26,5 @@ function AboutMe() {
     
   );
 };
-// exports aboutme function
+
 export default AboutMe;
