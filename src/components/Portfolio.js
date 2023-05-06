@@ -1,10 +1,10 @@
-// imports react
+
 
 import React from 'react';
-// imports project function from project.js
+
 import Project from './Project';
 
-// imports screenshots of each project
+
 import Javaquiz from '../assets/images/javaquiz.png';
 import Pedals from '../assets/images/expedal.png';
 import Encrypt from '../assets/images/encryptcreator.png';
@@ -15,7 +15,7 @@ import Weather from '../assets/images/weather.png';
 
 
 
-// styles object for html
+
 const styles = {
   section: {
     display: 'flex',
@@ -25,7 +25,7 @@ const styles = {
  
   }
 };
-// projects array that contains all project objects
+
 const projects = [
   {
     id: '0',
@@ -76,14 +76,14 @@ const projects = [
 
 
 ];
-// portfolio function that creates html to be rendered in portfolio state
+
 function Portfolio() {
-  // returns portfolio html and calls the project function from project.js to generate html for each project card
+ 
   return (
     <section style={styles.section}>
       <Project projects={projects} />
     </section>
   );
 };
-// exports portfolio function
+
 export default Portfolio;
