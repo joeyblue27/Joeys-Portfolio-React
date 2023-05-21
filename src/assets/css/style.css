@@ -2,7 +2,7 @@
 body {
     background-color: #ffffff;
    
-    background-image: radial-gradient(circle at left center, #236262, #79d9d1);
+    background-image: radial-gradient(circle at left center, #63abab, #348c83,#3e9c9c, #63abab);
  
 }
 
@@ -27,16 +27,32 @@ p {
 
 }
 
+h3 {
+    font-family:'Times New Roman', Times, serif;
+
+    
+    color:rgb(255, 255, 255);
+    
+
+}
 .active-tab {
-    color: rgb(0, 0, 0) !important;
-    background-color: rgb(117, 204, 230) !important;
-    border-radius: 25px !important;
+    color: rgb(205, 244, 240) !important;
+    
+    border-radius: 30px !important;
+    
+   
+    
+    
 }
 
 .list-group-item:hover {
-    color: rgb(0, 0, 0) !important;
-    background-color: rgb(152, 228, 247) !important;
-    border-radius: 25px !important;
+    color: rgb(200, 242, 239) !important;
+    
+    
+    border-radius: 30px !important;
+   
+   
+  
     cursor: pointer !important;
 };
 

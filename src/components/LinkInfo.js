@@ -22,27 +22,29 @@ const styles = {
     padding: '.5em',
   },
   button: {
-    padding: '4px',
-    borderRadius: "5px"
+    padding: '5px',
+    borderRadius: "10px"
   }
 };
 
-function Project(props) {
+function Repo(props) {
   return (
     <div style={styles.container}>
       {}
-      {props.projects.map((project, i) =>
-        <div className='cards' style={styles.card} key={project.id}>
-            <h4>{project.name}</h4>
-          <a href={project.link}>
+      {props.programs.map((portfolio, i) =>
+        <div className='cards' style={styles.card} key={portfolio.id}>
+            <h4>{portfolio.name}</h4>
+          <a href={portfolio.link}>
           <img
-            alt={project.name}
+            alt={portfolio.name}
             className="img"
-            src={project.picture}
+            src={portfolio.picture}
             style={styles.img}
           />
           </a>
-          <p>{project.info}</p>
+          <p>{portfolio.info}</p>
+          <span>   </span>
+          <a href={portfolio.repo}><button style={styles.button}>GitHub Repo</button></a>
          
         </div>
       )}
@@ -50,4 +52,4 @@ function Project(props) {
   );
 };
 
-export default Project;
+export default Repo;

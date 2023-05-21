@@ -6,12 +6,14 @@ function Navigation(props) {
     const styles = {
         ul: {
             margin: '0',
+            
         },
         list: {
-            padding: '0 4em',
+            padding: '0 5em',
+            
         },
         listactive: {
-            padding: '0 4em',
+            padding: '0 5em',
 
         }
     };
@@ -27,19 +29,19 @@ function Navigation(props) {
                     className={currentTab === "about" ? "active-tab list-group-item" : "list-group-item"}
                     
                     onClick={() => setCurrentTab("about")}>
-                    about me
+                    About
                 </li>
                 <li
                     style={currentTab === "portfolio" ? styles.listactive : styles.list}
                     className={currentTab === "portfolio" ? "active-tab list-group-item" : "list-group-item"}
                     onClick={() => setCurrentTab("portfolio")}>
-                    portfolio
+                    Portfolio
                 </li>
                 <li
-                    style={currentTab === "contact" ? styles.listactive : styles.list}
-                    className={currentTab === "contact" ? "active-tab list-group-item" : "list-group-item"}
-                    onClick={() => setCurrentTab("contact")}>
-                    contact
+                    style={currentTab === "resume" ? styles.listactive : styles.list} 
+                    className={currentTab === "resume" ? "active-tab list-group-item" : "list-group-item"}
+                    onClick={() => setCurrentTab("resume")}>
+                    Resume
                 </li>
             </ul>
         </nav >
