@@ -4,9 +4,10 @@ import './assets/css/style.css';
 
 import Header from './components/Header';
 
+
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
-
+import Resume from './components/Resume';
 
 import { useState } from 'react';
 
@@ -20,6 +21,9 @@ function App() {
         return <AboutMe />;
         case 'portfolio':
           return <Portfolio />;
+          case 'resume':
+            return <Resume />;
+       
       default:
         return <AboutMe />;
     };
