@@ -15,7 +15,7 @@ function AboutMe() {
  
   return (
 
-
+<main>
     <div>
         <img id="photo" src={joeys} alt="Joey Douek" height="250" width="250" className="rounded-circle border border-2 border-white"></img>
      
@@ -25,7 +25,7 @@ function AboutMe() {
       </p>
       </div>
       
-      <h2>Contact</h2>
+      <h2>Contacts!</h2>
       
       <section id='links'>
       <a href="mailto:joey.douek@gmail.com">
@@ -39,6 +39,7 @@ function AboutMe() {
       </a>
       </section> 
     </div>
+    </main>
 
     
   );
