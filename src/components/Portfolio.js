@@ -87,9 +87,9 @@ const programs = [
 function Links() {
  
   return (
-    <section style={styles.section}>
+    <div style={styles.section}>
       <LinkInfo programs={programs} />
-    </section>
+    </div>
   );
 };
 

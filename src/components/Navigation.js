@@ -3,9 +3,10 @@ import React from 'react';
 
 
 function Navigation(props) {
-    const styles = {
+    const nav = {
         ul: {
             margin: '0',
+            
             
         },
         list: {
@@ -22,24 +23,23 @@ function Navigation(props) {
    
     return (
         <nav className='p-1' >
-            <ul style={styles.ul} className="d-flex fs-2 text-white">
+            <ul style={nav.ul} className="d-flex fs-2 text-white">
                 {}
                 <li 
-                    style={currentTab === "about" ? styles.listactive : styles.list}
-                    className={currentTab === "about" ? "active-tab list-group-item" : "list-group-item"}
-                    
+                    style={currentTab === "about" ? nav.listactive : nav.list}
+                    className={currentTab === "about" ? "tab nav" : "nav"}
                     onClick={() => setCurrentTab("about")}>
                     About
                 </li>
                 <li
-                    style={currentTab === "portfolio" ? styles.listactive : styles.list}
-                    className={currentTab === "portfolio" ? "active-tab list-group-item" : "list-group-item"}
+                    style={currentTab === "portfolio" ? nav.listactive : nav.list}
+                    className={currentTab === "portfolio" ? "tab nav" : "nav"}
                     onClick={() => setCurrentTab("portfolio")}>
                     Portfolio
                 </li>
                 <li
-                    style={currentTab === "resume" ? styles.listactive : styles.list} 
-                    className={currentTab === "resume" ? "active-tab list-group-item" : "list-group-item"}
+                    style={currentTab === "resume" ? nav.listactive : nav.list} 
+                    className={currentTab === "resume" ? "tab nav" : "nav"}
                     onClick={() => setCurrentTab("resume")}>
                     Resume
                 </li>
