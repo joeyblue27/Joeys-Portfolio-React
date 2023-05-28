@@ -15,7 +15,7 @@ function AboutMe() {
  
   return (
 
-<main>
+
     <div>
         <img id="photo" src={joeys} alt="Joey Douek" height="250" width="250" className="rounded-circle border border-2 border-white"></img>
      
@@ -39,7 +39,7 @@ function AboutMe() {
       </a>
       </section> 
     </div>
-    </main>
+   
 
     
   );
