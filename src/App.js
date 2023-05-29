@@ -1,11 +1,8 @@
 
 import './assets/css/style.css';
-
-
 import Header from './components/Header';
 import Footer from './components/Footer';
-
-import AboutMe from './components/AboutMe';
+import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
@@ -18,14 +15,13 @@ function App() {
   const renderTab = () => {
     switch (currentTab) {
       case 'about':
-        return <AboutMe />;
+        return <About />;
         case 'portfolio':
           return <Portfolio />;
           case 'resume':
             return <Resume />;
-       
       default:
-        return <AboutMe />;
+        return <About />;
     };
   };  
   return (
