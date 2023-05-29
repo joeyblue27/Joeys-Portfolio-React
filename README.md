@@ -26,10 +26,11 @@ N/A
 
 ## Links
 
-[Deploy](https://radiant-badlands-77869.herokuapp.com/)
+[Deploy](https://joeys-portfolio-77869.herokuapp.com/)
 
 ## Screenshots
 
+![image 1](./src/assets/images/joeysport.png) 
 
 ## License
 
