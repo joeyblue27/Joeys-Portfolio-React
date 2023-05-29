@@ -1,86 +1,62 @@
 
 body {
-    background-color: #ffffff;
-   
     background-image: radial-gradient(circle at left center, #156e6e, #2f978d,#4cbfbf, #70cccc);
- 
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
 
 #photo {
-    
+    display: flex;
     position: absolute;
-    
     left: 200px;
     top: 200px;
 }
 
 #links
 {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     position: absolute;
-    right: 200px;
-    top: 300px;
-    
+    right: 210px;
+    top: 270px; 
 }
 
 img {
     
-    margin-bottom:50px
+    margin-bottom:15px
 }
 
 
 p {
-    
+    display: flex; 
     font-family: 'Handlee', cursive;
     font-size: 35px;
     position: relative;
-    top: 100px;
-    
+    top: 100px; 
     color:rgb(255, 255, 255);
-    
-
 }
 
 h3 {
-    
+    display: flex;
     font-family:'Times New Roman', Times, serif;
-
-    
     color:rgb(255, 255, 255);
-    
-
 }
 .tab {
-    
+    display: flex;
     color: rgb(205, 244, 240) !important;
-    
-    border-radius: 30px !important;
-         
+    border-radius: 30px !important; 
 }
 
 .nav:hover {
-    
+    display: flex;
     color: rgb(200, 242, 239) !important;
     background-color: rgb(55, 152, 141);
     border-radius: 30px !important;
     cursor: pointer !important;
-   
-}
-
-a {
-    
-    position: top 50px;
 }
 
 h2 {
-    
+    display: flex;
     font-family: 'Handlee', cursive;
     font-size: 50px;
     position: absolute;
@@ -91,10 +67,26 @@ h2 {
 
 }
 
-@media screen and (max-width: 600px) {
-    
-    main
-     {
-      flex-direction: column;
-    }
+footer {
+  position: relative;
+  top: 70px;
+  
 }
+  
+  @media screen and (max-width: 600px) {
+
+    #photo{
+        position: static;
+        width: 25%;
+        height: 25%;
+    }
+
+    p, .nav{
+        
+        font-size: medium;
+    }
+
+  }
+
+
+
