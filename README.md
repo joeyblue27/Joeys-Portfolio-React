@@ -41,5 +41,5 @@ This application is covered under the [MIT License](https://choosealicense.com/l
 
 ## Questions
 Reach me! 
-[email](joeyblue27@gmail.com) 
+[email](mailto:joeyblue27@gmail.com) 
 [Github Profile](https://github.com/joeyblue27)
