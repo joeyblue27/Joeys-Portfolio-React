@@ -1,6 +1,7 @@
 
 import React from 'react';
 
+// footer logo symbols
 
 function Footer() {
  

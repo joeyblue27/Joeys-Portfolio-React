@@ -3,7 +3,7 @@ import React from 'react';
 
 import resume from '../assets/images/Resume.pdf';
 
-
+// html resume download link
 
 function Resume() {
   return (
