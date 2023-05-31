@@ -1,4 +1,6 @@
 
+// imports css styling and portfolio content
+
 import './assets/css/style.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,8 +12,12 @@ import { useState } from 'react';
 
 function App() {
   
+// default to about
+
   const [currentTab, setCurrentTab] = useState('about');
   
+  // nav choice display
+
   const renderTab = () => {
     switch (currentTab) {
       case 'about':
@@ -25,7 +31,7 @@ function App() {
     };
   };  
   return (
-    
+
     <div>
       <div>
         <Header

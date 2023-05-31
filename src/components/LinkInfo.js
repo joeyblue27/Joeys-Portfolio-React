@@ -1,7 +1,9 @@
 
 import React from 'react';
 
-const styles = {
+// styling portfolio projects 
+
+const styling = {
   container: {
     display: 'flex',
     justifyContent: 'center',
@@ -27,24 +29,26 @@ const styles = {
   }
 };
 
+// link images and repo
+
 function Repo(props) {
   return (
-    <div style={styles.container}>
+    <div style={styling.container}>
       {}
       {props.programs.map((portfolio, i) =>
-        <div className='cards' style={styles.card} key={portfolio.id}>
+        <div className='cards' style={styling.card} key={portfolio.id}>
             <h4>{portfolio.name}</h4>
           <a href={portfolio.link}>
           <img
             alt={portfolio.name}
             className="img"
             src={portfolio.picture}
-            style={styles.img}
+            style={styling.img}
           />
           </a>
           <p>{portfolio.info}</p>
           <span>   </span>
-          <a href={portfolio.repo}><button style={styles.button}>GitHub Repo</button></a>
+          <a href={portfolio.repo}><button style={styling.button}>GitHub Repo</button></a>
          
         </div>
       )}

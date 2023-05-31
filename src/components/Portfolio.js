@@ -1,10 +1,7 @@
-
+// import react and projects
 
 import React from 'react';
-
 import LinkInfo from './LinkInfo';
-
-
 import Javaquiz from '../assets/images/javaquiz.png';
 import Pedals from '../assets/images/expedal.png';
 import Encrypt from '../assets/images/encryptcreator.png';
@@ -14,9 +11,9 @@ import Videogame from '../assets/images/videogame.jpeg';
 import Weather from '../assets/images/weather.png';
 
 
+// flex prop styling
 
-
-const styles = {
+const styling = {
   section: {
     display: 'flex',
     justifyContent: 'center',
@@ -25,6 +22,8 @@ const styles = {
  
   }
 };
+
+// project objects and properties 
 
 const programs = [
   {
@@ -84,10 +83,12 @@ const programs = [
 
 ];
 
+// render html programs
+ 
 function Links() {
  
   return (
-    <div style={styles.section}>
+    <div style={styling.section}>
       <LinkInfo programs={programs} />
     </div>
   );
