@@ -18,7 +18,7 @@ function About() {
 
       <div className='d-flex flex-column align-items-center pb-5'>
       <p className='w-25'>
-      Hi, My name is Joey. Computers and sound has been a passion of mine for years. My work experiences have been in IT support and retail. My career path will be moving towards coding development.
+      Hi, My name is Joey. Computers and sound has been a passion of mine for years. My work experiences have been in IT support and retail. My career path will be moving towards software development.
       </p>
       </div>
       
