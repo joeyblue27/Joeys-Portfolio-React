@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import resume from '../assets/images/resume.pdf';
+import resume from '../assets/images/jdouekresume.pdf';
 
 // html resume download link
 
