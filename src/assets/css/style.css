@@ -1,5 +1,8 @@
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: radial-gradient(circle at left center, #156e6e, #2f978d,#4cbfbf, #70cccc);
 }
 
@@ -68,9 +71,11 @@ h2 {
 }
 
 footer {
-  position: relative;
-  top: 60px;
-  
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
   
   @media screen and (max-width: 600px) {
