@@ -14,11 +14,11 @@ function About() {
   return (
 
     <div>
-        <img id="photo" src={joeys} alt="Joey Douek" height="250" width="250" className="rounded-circle border border-2 border-white"></img>
+        <img id="photo" src={joeys} alt="Joey Douek" height="300" width="250" className="rounded-circle border border-2 border-white"></img>
 
       <div className='d-flex flex-column align-items-center pb-5'>
       <p className='w-25'>
-      Hi, My name is Joey. Computers and sound has been a passion of mine for years. My work experiences have been in IT support and retail. My career path will be moving towards software development.
+      Hi, My name is Joey. Computer hardware and software has been a passion of mine. My work experiences have been in IT support and retail sales. My career path will be moving towards software development.
       </p>
       </div>
       
