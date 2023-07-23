@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle at left center, #156e6e, #2f978d,#4cbfbf, #70cccc);
+    background-image: radial-gradient(circle at left center, #154c6e, #2f6f97,#4c89bf, #70a6cc);
 }
 
 
