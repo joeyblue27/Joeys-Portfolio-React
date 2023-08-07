@@ -7,7 +7,6 @@ body {
 
 
 #photo {
-    
     position: static;
     left: 200px;
     top: 200px;
@@ -55,7 +54,7 @@ h2 {
 .nav:hover {
     display: flex;
     color: rgb(200, 242, 239) !important;
-    background-color: rgb(55, 152, 141);
+    background-color: rgb(87, 132, 160);
     border-radius: 30px !important;
     cursor: pointer !important;
 }
@@ -69,13 +68,65 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+
+    #photo{
+        position: static;
+      
+    }
+
+    .nav{
+    font-size: 1em;
+    }
+
+    p {
+       
+        font-size: 2em;
+    }
+    #links {
+        position: static;
+     }
+    footer {
+        position: static;
+    
+    }
+
+  }
+
   
+@media screen and (max-width: 970px) {
+
+    #photo{
+        position: static;
+       
+    }
+
+    .nav{
+    font-size: .5em;
+    }
+
+    p {
+       
+        font-size: 2em;
+    }
+    #links {
+        position: static;
+
+    }
+    footer {
+        position: static;
+    
+    }
+
+  }
+
+
   @media screen and (max-width: 750px) {
 
     #photo{
         position: static;
-        width: 25%;
-        height: 25%;
+        
     }
 
     .nav{
@@ -85,6 +136,32 @@ footer {
     p {
        
         font-size: 1.5em;
+    }
+    #links {
+        position: static;
+
+    }
+    footer {
+        position: static;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    #photo{
+        position: static;
+    
+    }
+
+    .nav{
+    font-size: .5em;
+    }
+
+    p {
+       
+        font-size: 1em;
     }
     #links {
         position: static;
