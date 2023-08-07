@@ -14,17 +14,18 @@ function About() {
   return (
 
     <div>
-        <img id="photo" src={joeys} alt="Joey Douek" height="300" width="250" className="rounded-circle border border-2 border-white"></img>
+        <img id="photo" src={joeys} alt="Joey Douek" height="200" className="rounded-circle border border-2 border-white"></img>
 
       <div className='d-flex flex-column align-items-center pb-5'>
-      <p className='w-25'>
-      Hi, My name is Joey. I am a software and audio developer. Working with computers has been a passion of mine for sometime. I look forward into developing new software and products that enhance our everyday life. 
+      <p className='w-50'>
+      Hi, My name is Joey. I am a software developer. Working with computers has been a passion of mine for sometime. I look forward into developing new software and products that enhance our everyday life. 
       </p>
       </div>
       
-      <h2>Contacts!</h2>
+      
     
       <section id='links'>
+        <h2>Contacts!</h2>
       <a href="mailto:joey.douek@gmail.com">
       <img src={gmail} alt="Joey Douek" height="100" width="100"></img>
       </a> 

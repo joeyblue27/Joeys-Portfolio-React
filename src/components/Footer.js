@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer>
     <div>
-    <img height="25" width="50" src="https://ico.vercel.app/jquery/eee" alt="jquery" title="jquery" />
+          <img height="25" width="50" src="https://ico.vercel.app/jquery/eee" alt="jquery" title="jquery" />
           <img height="25" width="50" src="https://ico.vercel.app/json/eee" alt="JSON" title="JSON" />
           <img height="25" width="50" src="https://ico.vercel.app/jsonwebtokens/eee" alt="JWT" title="JWT" />
           <img height="25" width="50" src="https://ico.vercel.app/markdown/eee" alt="markdown" title="markdown" />
@@ -36,7 +36,8 @@ function Footer() {
           <img height="25" width="50" src="https://ico.now.sh/react/eee" alt="react" title="react" />
           <img height="25" width="50" src="https://ico.now.sh/graphql/eee" alt="graphql" title="graphql" />
           <img height="25" width="50" src="https://ico.vercel.app/mongodb/eee" alt="mongodb" title="mongodb" />
-         
+          <img height="25" width="50" src="https://ico.vercel.app/assemblyscript/eee" alt="JSON" title="JSON" />
+          <img height="25" width="50" src="https://ico.vercel.app/adobephotoshop/eee" alt="JSON" title="JSON" />
         </div>
         </footer>
     );
