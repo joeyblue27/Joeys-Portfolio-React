@@ -1,16 +1,14 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-image: radial-gradient(circle at left center, #154c6e, #2f6f97,#4c89bf, #70a6cc);
 }
 
 
 
 #photo {
-    display: flex;
-    position: absolute;
+    
+    position: static;
     left: 200px;
     top: 200px;
 }
@@ -35,15 +33,19 @@ p {
     font-family: 'Handlee', cursive;
     font-size: 35px;
     position: relative;
-    top: 100px; 
     color:rgb(255, 255, 255);
 }
 
-h3 {
-    display: flex;
-    font-family:'Times New Roman', Times, serif;
+h2 {
+    display: flex; 
+    font-family: 'Handlee', cursive;
+    text-decoration: underline;
+    font-size: 35px;
+    position: relative;
     color:rgb(255, 255, 255);
 }
+
+
 .tab {
     display: flex;
     color: rgb(205, 244, 240) !important;
@@ -58,17 +60,7 @@ h3 {
     cursor: pointer !important;
 }
 
-h2 {
-    display: flex;
-    font-family: 'Handlee', cursive;
-    font-size: 50px;
-    position: absolute;
-    top: 200px;
-    right: 200px;
-    text-decoration: underline;
-    color:rgb(255, 255, 255);
 
-}
 
 footer {
     justify-content: center;
@@ -78,7 +70,7 @@ footer {
     width: 100%;
 }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 750px) {
 
     #photo{
         position: static;
@@ -86,9 +78,21 @@ footer {
         height: 25%;
     }
 
-    p, .nav, .tab{
-        
-        font-size: medium;
+    .nav{
+    font-size: .5em;
+    }
+
+    p {
+       
+        font-size: 1.5em;
+    }
+    #links {
+        position: static;
+
+    }
+    footer {
+        position: static;
+    
     }
 
   }
