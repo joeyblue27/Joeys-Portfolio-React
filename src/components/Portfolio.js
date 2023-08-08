@@ -17,9 +17,6 @@ const styling = {
   section: {
     display: 'flex',
     justifyContent: 'center',
-    maxHeight: '100%',
-    paddingBottom: '100px',
- 
   }
 };
 

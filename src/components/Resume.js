@@ -9,7 +9,7 @@ function Resume() {
   return (
     <section>
       <div>   
-<div className='d-flex flex-column align-items-center pb-5'>
+<div className='d-flex flex-column align-items-center py-5'>
       <p className='w-75'>Full Stack Web Developer with a strong background in web
 design and maintenance. Experienced in creating and managing online stores. Seeking
 a challenging position to utilize my technical skills and contribute to the success of a
