@@ -18,7 +18,7 @@ function About() {
 
       <div className='d-flex flex-column align-items-center'>
       <p className='w-50'>
-      Hi, My name is Joey. I am a software developer. Working with computers has been a passion of mine for sometime. I look forward into developing new software and products that enhance our everyday life. 
+      Hi, My name is Joey. I am a full stack web developer with an active focus on creating app design and development. I look forward into developing new software and products that enhance our everyday life. 
       </p>
       </div>
       
