@@ -30,7 +30,7 @@ N/A
 
 ## Screenshots
 
-![image 1](./src/assets/images/joeysport.png) 
+![image 1](./src/assets/images/joeysport.jpg) 
 
 ## License
 
