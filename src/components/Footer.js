@@ -30,7 +30,6 @@ function Footer() {
           <img height="25" width="50" src="https://ico.vercel.app/pwa/eee" alt="progressive-web-app" title="progressive-web-app" />
           <img height="25" width="50" src="https://ico.vercel.app/redux/eee" alt="redux" title="redux" />
           <img height="25" width="50" src="https://ico.vercel.app/sequelize/eee" alt="sequelize" title="sequelize" />
-          <img height="25" width="50" src="https://ico.vercel.app/visualstudiocode/eee" alt="VS-Code" title="VS-Code" />
           <img height="25" width="50" src="https://ico.now.sh/css3/eee" alt="css3" title="css" />
           <img height="25" width="50" src="https://ico.now.sh/javascript/eee" alt="javascript" title="javascript" />
           <img height="25" width="50" src="https://ico.now.sh/react/eee" alt="react" title="react" />
