@@ -10,7 +10,7 @@ function Header(props) {
     const { currentTab, setCurrentTab } = props;
    // nav flex 
     return (
-        <header className='d-flex flex-column align-items-center border border-2 py-4'>
+        <header className='d-flex flex-column align-items-center border border-2 border-dark py-4'>
       
             <Navigation
                 currentTab={currentTab}

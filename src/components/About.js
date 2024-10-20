@@ -14,7 +14,7 @@ function About() {
   return (
 
     <div>
-        <img id="photo" src={joeys} alt="Joey Douek" height="250" className="rounded-circle border border-2 border-white"></img>
+        <img id="photo" src={joeys} alt="Joey Douek" height="250" className="rounded-circle border border-2 border-dark"></img>
 
       <div className='d-flex flex-column align-items-center'>
       <p className='w-50'>
