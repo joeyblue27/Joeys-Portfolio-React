@@ -25,7 +25,6 @@ function About() {
       
     
       <section id='links'>
-        <h2>Contacts!</h2>
       <a href="mailto:joey.douek@gmail.com">
       <img id='contact' src={gmail} alt="Joey Douek" height="100" width="100"></img>
       </a> 
