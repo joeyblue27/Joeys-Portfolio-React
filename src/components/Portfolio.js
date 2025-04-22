@@ -26,7 +26,7 @@ const styling = {
 const programs = [
   {
     id: '0',
-    name: 'PedalBoard Saver',
+    name: 'Stomp Box Saver',
     picture: Expedal,
     link: 'https://polar-fortress-83075.herokuapp.com/',
     repo: 'https://github.com/joeyblue27/PedalBoard-Saver'
