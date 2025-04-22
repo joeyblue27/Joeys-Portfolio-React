@@ -36,7 +36,6 @@ function Footer() {
           <img height="25" width="50" src="https://ico.now.sh/graphql/eee" alt="graphql" title="graphql" />
           <img height="25" width="50" src="https://ico.vercel.app/mongodb/eee" alt="mongodb" title="mongodb" />
           <img height="25" width="50" src="https://ico.vercel.app/assemblyscript/eee" alt="JSON" title="JSON" />
-          <img height="25" width="50" src="https://ico.vercel.app/adobephotoshop/eee" alt="JSON" title="JSON" />
         </div>
         </footer>
     );
