@@ -72,27 +72,18 @@ h2 {
 }
 
 
-.tab {
-    display: flex;
-    font-family: 'Handlee', cursive;
-    font-size: 35px;
-    color: rgb(205, 244, 240) !important;
-    border-radius: 30px !important; 
-}
+
 
 .nav:hover {
-    display: flex;
     font-family: 'Handlee', cursive;
-    color: rgb(200, 242, 239) !important;
     background-color: rgb(122, 173, 204);
-    border-radius: 30px !important; 
-    cursor: pointer !important;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px; 
 }
 
-nav {
-    font-family: 'Handlee', cursive;
-    
-}
+
+
 
 footer {
     display: flex;
@@ -113,7 +104,7 @@ footer {
     }
 
     .nav{
-    font-size: .7em;
+    font-size: 1em;
     }
 
     p {
@@ -138,7 +129,7 @@ footer {
     }
  }
 
- @media screen and (max-width: 850px) {
+ @media screen and (max-width: 900px) {
 
     #photo{
         position: relative; 
@@ -148,12 +139,12 @@ footer {
     }
 
     .nav{
-    font-size: .6em;
+    font-size: .7em;
     }
 
     p {
-       position: relative;
-        font-size: 1.5em;
+    position: relative;
+    font-size: 1.5em;
     }
 
     #links {
@@ -185,7 +176,7 @@ footer {
     }
 
     .nav{
-    font-size: .3em;
+    font-size: .5em;
     }
 
     p {
@@ -216,7 +207,7 @@ footer {
     }
 
     .nav{
-    font-size: .2em;
+    font-size: .3em;
     }
 
     p {
