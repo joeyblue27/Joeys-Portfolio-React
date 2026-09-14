@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Joeys-Portfolio/static/css/main.03ef8fcc.css",
+    "main.js": "/Joeys-Portfolio/static/js/main.c0d7b18b.js",
+    "static/media/joey.jpg": "/Joeys-Portfolio/static/media/joey.72c4fc80021c69bd06d6.jpg",
+    "static/media/aec.png": "/Joeys-Portfolio/static/media/aec.7f8a0fa0d25c2dc38949.png",
+    "static/media/blueemployee.png": "/Joeys-Portfolio/static/media/blueemployee.117d355781033dca23e6.png",
+    "static/media/linkedin.png": "/Joeys-Portfolio/static/media/linkedin.15cccc2a38c6ee01b6cf.png",
+    "static/media/jdouekresume.pdf": "/Joeys-Portfolio/static/media/jdouekresume.441df76926f6d85bd184.pdf",
+    "static/media/videogame.jpeg": "/Joeys-Portfolio/static/media/videogame.4fab8f834a621cf73535.jpeg",
+    "static/media/workday.png": "/Joeys-Portfolio/static/media/workday.609797f6b485e06cd5ef.png",
+    "static/media/weather.png": "/Joeys-Portfolio/static/media/weather.acf031d8c58e15a694f5.png",
+    "static/media/javaquiz.png": "/Joeys-Portfolio/static/media/javaquiz.94028422c8d9b7ee218c.png",
+    "static/media/expedal.png": "/Joeys-Portfolio/static/media/expedal.a0b8666eb86b67f751f6.png",
+    "static/media/encryptcreator.png": "/Joeys-Portfolio/static/media/encryptcreator.aa25cbf89939def02f6b.png",
+    "static/media/github.png": "/Joeys-Portfolio/static/media/github.0c61bdde842bf6bb3824.png",
+    "static/media/gmail.png": "/Joeys-Portfolio/static/media/gmail.efeb387df8138e9a0b99.png",
+    "index.html": "/Joeys-Portfolio/index.html",
+    "main.03ef8fcc.css.map": "/Joeys-Portfolio/static/css/main.03ef8fcc.css.map",
+    "main.c0d7b18b.js.map": "/Joeys-Portfolio/static/js/main.c0d7b18b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ef8fcc.css",
+    "static/js/main.c0d7b18b.js"
+  ]
+}
