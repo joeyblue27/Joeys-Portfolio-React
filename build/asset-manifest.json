@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/joeyblue27/Joeys-Portfolio-React/static/css/main.64958691.css",
-    "main.js": "/joeyblue27/Joeys-Portfolio-React/static/js/main.b1c30f4b.js",
-    "static/media/joey.jpg": "/joeyblue27/Joeys-Portfolio-React/static/media/joey.72c4fc80021c69bd06d6.jpg",
-    "static/media/aec.png": "/joeyblue27/Joeys-Portfolio-React/static/media/aec.7f8a0fa0d25c2dc38949.png",
-    "static/media/blueemployee.png": "/joeyblue27/Joeys-Portfolio-React/static/media/blueemployee.117d355781033dca23e6.png",
-    "static/media/linkedin.png": "/joeyblue27/Joeys-Portfolio-React/static/media/linkedin.15cccc2a38c6ee01b6cf.png",
-    "static/media/jdouekresume.pdf": "/joeyblue27/Joeys-Portfolio-React/static/media/jdouekresume.441df76926f6d85bd184.pdf",
-    "static/media/videogame.jpeg": "/joeyblue27/Joeys-Portfolio-React/static/media/videogame.4fab8f834a621cf73535.jpeg",
-    "static/media/workday.png": "/joeyblue27/Joeys-Portfolio-React/static/media/workday.609797f6b485e06cd5ef.png",
-    "static/media/weather.png": "/joeyblue27/Joeys-Portfolio-React/static/media/weather.acf031d8c58e15a694f5.png",
-    "static/media/javaquiz.png": "/joeyblue27/Joeys-Portfolio-React/static/media/javaquiz.94028422c8d9b7ee218c.png",
-    "static/media/expedal.png": "/joeyblue27/Joeys-Portfolio-React/static/media/expedal.a0b8666eb86b67f751f6.png",
-    "static/media/encryptcreator.png": "/joeyblue27/Joeys-Portfolio-React/static/media/encryptcreator.aa25cbf89939def02f6b.png",
-    "static/media/github.png": "/joeyblue27/Joeys-Portfolio-React/static/media/github.0c61bdde842bf6bb3824.png",
-    "static/media/gmail.png": "/joeyblue27/Joeys-Portfolio-React/static/media/gmail.efeb387df8138e9a0b99.png",
-    "index.html": "/joeyblue27/Joeys-Portfolio-React/index.html",
-    "main.64958691.css.map": "/joeyblue27/Joeys-Portfolio-React/static/css/main.64958691.css.map",
-    "main.b1c30f4b.js.map": "/joeyblue27/Joeys-Portfolio-React/static/js/main.b1c30f4b.js.map"
+    "main.css": "/static/css/main.64958691.css",
+    "main.js": "/static/js/main.d3910357.js",
+    "static/media/joey.jpg": "/static/media/joey.72c4fc80021c69bd06d6.jpg",
+    "static/media/aec.png": "/static/media/aec.7f8a0fa0d25c2dc38949.png",
+    "static/media/blueemployee.png": "/static/media/blueemployee.117d355781033dca23e6.png",
+    "static/media/linkedin.png": "/static/media/linkedin.15cccc2a38c6ee01b6cf.png",
+    "static/media/jdouekresume.pdf": "/static/media/jdouekresume.441df76926f6d85bd184.pdf",
+    "static/media/videogame.jpeg": "/static/media/videogame.4fab8f834a621cf73535.jpeg",
+    "static/media/workday.png": "/static/media/workday.609797f6b485e06cd5ef.png",
+    "static/media/weather.png": "/static/media/weather.acf031d8c58e15a694f5.png",
+    "static/media/javaquiz.png": "/static/media/javaquiz.94028422c8d9b7ee218c.png",
+    "static/media/expedal.png": "/static/media/expedal.a0b8666eb86b67f751f6.png",
+    "static/media/encryptcreator.png": "/static/media/encryptcreator.aa25cbf89939def02f6b.png",
+    "static/media/github.png": "/static/media/github.0c61bdde842bf6bb3824.png",
+    "static/media/gmail.png": "/static/media/gmail.efeb387df8138e9a0b99.png",
+    "index.html": "/index.html",
+    "main.64958691.css.map": "/static/css/main.64958691.css.map",
+    "main.d3910357.js.map": "/static/js/main.d3910357.js.map"
   },
   "entrypoints": [
     "static/css/main.64958691.css",
-    "static/js/main.b1c30f4b.js"
+    "static/js/main.d3910357.js"
   ]
 }
